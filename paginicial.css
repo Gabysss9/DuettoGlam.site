@@ -1,0 +1,123 @@
+* body{
+    margin: 10px;
+    padding: 20px;
+    
+}
+h1{
+    padding: 30px;
+    margin: 6px;
+    margin-bottom: 0px;
+    background-color: #D9DFC6;
+
+}
+
+nav{
+    margin: auto;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: flex-end;
+    position: relative;
+    top: -100px;
+    margin-bottom: 0px;
+
+}
+
+nav a{
+    margin: 10px;
+    padding: 10px;
+    justify-content: flex-end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+input{
+    padding: 6px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    width: 15cm;  
+
+}
+ nav button{
+    margin: 5px;
+    padding: -10px;
+    height: -100cm;
+    width: -2cm;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section{
+    background-color: #EFF3EA;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+section img{
+    
+    justify-content: center;
+    display: block;
+    align-items: center;
+}
+
+section button{
+    margin: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: #FFFDF0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ajuda{
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFDF0;
+}
+
+.ajuda button{
+    margin: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: #FFFDF0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #FFF2C2;
+    margin-bottom: 0;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+footer h5{
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    justify-items: flex-end;
+}
+
+

@@ -67,19 +67,11 @@ p{
 
 a{
     margin: 10px;
-    padding-right: 1000px;
-    justify-content: flex-end;
-}
+    padding-right: 100px;
+    justify-content: flex-start;
 
 button{
     margin: 5px;
-    padding: 10px;
-    justify-self: flex-start;
-    border: 0px;
-    background-color: #EFF3EA;
-
-
+    padding: 5px;
+    
 }
-
-
-

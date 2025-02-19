@@ -1,0 +1,73 @@
+* body{
+    margin: 10px;
+    padding: 20px;
+    
+}
+h1{
+    padding: 20px;
+    margin: 6px;
+
+}
+
+nav{
+    margin: auto;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: flex-end;
+    position: relative;
+    top: -100px;
+}
+
+nav a{
+    margin: 10px;
+    padding: 10px;
+    justify-content: flex-end;
+    padding-bottom: 0px;
+}
+
+input{
+    padding: 6px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    width: 15cm;  
+
+}
+ nav button{
+    margin: 5px;
+    padding: -10px;
+    height: -100cm;
+    width: -2cm;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main p{
+    margin: 10px;
+    padding: 110px;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 500px;
+    justify-items: flex-end;
+    margin-left: 19cm;
+    font-size: x-large;
+    text-align: justify;
+    line-height: 20px;
+    text-indent: 40px;
+}
+main button{
+    margin: 10px;
+    padding: 20px;
+    background-color: salmon;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-items: self-start;
+}
