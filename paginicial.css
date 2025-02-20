@@ -1,6 +1,7 @@
 * body{
     margin: 10px;
     padding: 20px;
+    display: flexbox;
     
 }
 h1{
@@ -43,10 +44,11 @@ input{
 
 }
  nav button{
-    margin: 5px;
-    padding: -10px;
+    margin: -2px;
+    margin-right: 5PX;
+    padding: 10px;
     height: -100cm;
-    width: -2cm;
+    width: 1.5cm;
     justify-content: flex-start;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
@@ -69,6 +71,7 @@ section img{
     justify-content: center;
     display: block;
     align-items: center;
+    pagging: 10px;
 }
 
 section button{
@@ -79,6 +82,7 @@ section button{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .ajuda{
@@ -99,6 +103,7 @@ section button{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 footer{
