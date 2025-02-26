@@ -1,6 +1,6 @@
 *
 body{
-    background-color: #D9DFC6;
+    background-color: #F8FAFC;
     margin: 20px;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@ h1{
 }
 
 form{
-    background-color: #EFF3EA;
+    background-color: #D9EAFD;
     align-items: center;
     justify-items: center;
     border-radius: 20px;
@@ -26,7 +26,7 @@ form{
 
 
 button{
-    background-color: #FFFDF0;
+    background-color: #F8FAFC;
     border: 0px;
     border-bottom: 0px;
     border-radius: 50px;
