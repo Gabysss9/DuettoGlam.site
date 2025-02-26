@@ -1,18 +1,21 @@
 * body{
     margin: 10px;
     padding: 20px;
-    display: auto;
-    flex-flow: row wrap;
+    display: flexbox;
 
     
 }
-nav h1{
-    padding: 20px;
+h1{
+    padding: 30px;
     margin: 6px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     background-color: #D9DFC6;
 
 
+}
+
+div{
+    height: 91px;
 }
 
 nav{
@@ -21,8 +24,9 @@ nav{
     padding: 5px 10px;
     justify-content: flex-end;
     position: relative;
+    align-items: center;
     top: -100px;
-    margin-bottom: 0;
+    margin-bottom: -0px;
    
 }
 
@@ -43,9 +47,9 @@ input{
 }
  nav button{
     margin: 5px;
-    padding: 5px;
-    height: 1cm;
-    width: 2cm;
+    padding: -10px;
+    height: -100cm;
+    width: -2cm;
     justify-content: flex-start;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
@@ -55,15 +59,23 @@ input{
 
 section{
     display: flex;
+    flex-direction: column;
     text-indent: 1.25cm;
-    margin: 10px;
-    padding: 10px;
     background-color: #EFF3EA;
-    padding: 100px
+    padding: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 0px;
+    
+  
 }
 
 section h1{
     text-align: center;
+    margin-bottom: 400px;
+    padding-bottom: 40px;
+    background-color: #EFF3EA;
 
 }
 
@@ -75,9 +87,14 @@ section p{
 }
 
 img{
-    background-color: #FFFDF0;
-    padding: auto;
-    align-items: center;
-    justify-content: center;
+    margin: 20px auto;
+    display: block;
+    
+}
+
+.Logo{
+    background-color: #fff2c2;
+    padding-bottom: 90px;
+    margin: 5px;
 }
 

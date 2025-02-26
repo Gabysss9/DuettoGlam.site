@@ -67,11 +67,16 @@ p{
 
 a{
     margin: 10px;
-    padding-right: 100px;
+    padding-right: 10px;
     justify-content: flex-start;
+    
+}
 
 button{
     margin: 5px;
     padding: 5px;
+    height: 1cm;
+    background-color: #ffffff;
+    border: #EFF3EA;
     
 }

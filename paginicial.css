@@ -13,7 +13,7 @@ h1{
 }
 
 .menu{
-    height: 100px;
+    height: 96px;
 }
 
 nav{
@@ -23,7 +23,8 @@ nav{
     align-items: center;
     position: relative;
     top: -100px;
-    margin-bottom: 0px;
+    margin-bottom: -0px;
+    height: 78px;
 
 }
 
@@ -63,6 +64,8 @@ section{
     display: flex;
     align-items: center;
     flex-direction: column;
+   
+
 
 }
 
@@ -71,7 +74,7 @@ section img{
     justify-content: center;
     display: block;
     align-items: center;
-    pagging: 10px;
+    padding: 10px;
 }
 
 section button{
@@ -82,7 +85,7 @@ section button{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 5px;
+    
 }
 
 .ajuda{
