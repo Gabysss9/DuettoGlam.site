@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     height: 100px;
-    background-color: #D9DFC6;
+    background-color: #F8FAFC;
 
 }
 
@@ -22,7 +22,7 @@ body{
 }
 
 .menu{
-    border: 10px, solid #EFF3EA;
+    border: 10px, solid #D9EAFD;
     flex: 100%;
     padding: 20px;
 
