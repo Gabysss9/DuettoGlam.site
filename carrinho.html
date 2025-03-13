@@ -17,6 +17,13 @@
         <p class="p1">Produto</p>
         <p class="2">Quantidade</p>
         <p class="3">Valor</p>  
+        <div class="quantidade-container">
+            <button class="qntd">+</button>
+            <h6>1</h6>
+            <button class="qntd2">-</button>
+            
+        </div>
+      
  
     </div>
 
@@ -34,6 +41,27 @@
      <BUTTON class="b2">FINALIZAR COMPRA</BUTTON>
 
      <script>
+        let botao = document.querySelector('.qntd');
+        let botao2 = document.querySelector('.qntd2');
+        let h6 = document.querySelector('h6');
+        let contagem = 0;
+
+        function adicionarUm(){
+            contagem++;
+            h6.innerHTML = contagem;
+        }
+
+        function subtrairUm(){
+           if (contagem > 0){
+            contagem--;
+            h6.innerHTML = contagem;
+        }   
+    }
+        adicionarUm();
+        subtrairUm();
+
+        botao.addEventListener('click', adicionarUm);
+        botao2.addEventListener('click', subtrairUm);
        
      </script>
 

@@ -71,3 +71,8 @@ main button{
     justify-items: flex-start;
     align-items: self-start;
 }
+
+.h6{
+    align-self: start;
+    justify-content: center;
+}

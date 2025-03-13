@@ -78,5 +78,17 @@ button{
     height: 1cm;
     background-color: #ffffff;
     border: #EFF3EA;
-    
+}
+
+.quantidade-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+h6{
+    margin: 0 10px;
+    position: static;
+    justify-items: flex-start;
+    font-size: larger;
 }
