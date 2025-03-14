@@ -50,3 +50,13 @@ botao.addEventListener('click', (e) => {
   e.preventDefault(); 
   alert("Login efetuado com sucesso"); 
 });
+
+
+let button = document.querySelector("button");
+let span = document.querySelector("span");
+
+function mostrarSpan(){
+
+span.style.opacity= "100"
+}
+button.addEventListener("mouseover", mostrarSpan);

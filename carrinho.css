@@ -22,6 +22,7 @@ body{
 }
 
 .menu{
+    display: flex;
     border: 10px, solid #D9EAFD;
     flex: 100%;
     padding: 20px;
@@ -32,15 +33,12 @@ body{
    
 
     p{
-        justify-content: space-between;
+        justify-content: flex-end;
         display: inline-block;
         align-content: space-around;
-        margin: 120px;
-        padding: 10px;
-        border: 1px, solid #EFF3EA;
-        position: relative;
-        margin-top: 0px;
-        margin-bottom: 500px;
+        font-size: medium;
+        position: relactive;
+        margin-top: 2px;
         
     }
 
@@ -50,8 +48,7 @@ body{
 p{
     flex: 60%;
     justify-content: flex-end;
-    margin: 30px;
-    padding: 20px;
+   
     align-items: end;
     margin-bottom: 0px;
 
@@ -82,8 +79,9 @@ button{
 
 .quantidade-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 10px;
+    justify-content: center;
 }
 
 h6{
@@ -91,4 +89,15 @@ h6{
     position: static;
     justify-items: flex-start;
     font-size: larger;
+
 }
+
+span {
+
+    opacity: 0;
+  
+    transition: all 0.3s;
+  
+  }
+  
+   
