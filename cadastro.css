@@ -79,3 +79,19 @@ input{
     background-color: red;
 }
 
+
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: relative;
+    top: 0;
+    right: 0;
+    color: red;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #D9EAFD;
+}
+
+
+
