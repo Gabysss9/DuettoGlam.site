@@ -65,6 +65,15 @@ main{
     align-items:last baseline;
     flex-direction: column;
     background-color: #D9EAFD;
+
+    button{
+        padding: 10px;
+        justify-content: flex-start;
+        background-color: #FFFFFF;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 5px;}
 }
 
 div{
@@ -97,7 +106,6 @@ p{
 
 
 .ajuda{
- 
     padding: 20px;
     justify-content: center;
     display: flex;
@@ -112,7 +120,8 @@ button{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 5px;}
+    margin-top: 5px;
+}
 
 }
 
