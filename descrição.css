@@ -8,7 +8,7 @@ h1{
     padding: 30px;
     margin: 6px;
     margin-bottom: 0px;
-    background-color: #D9EAFD;
+    background-color: #F8FAFC;
 
 }
 
@@ -58,13 +58,22 @@ input{
     cursor: pointer;
 }
 
+main{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items:last baseline;
+    flex-direction: column;
+    background-color: #D9EAFD;
+}
+
 div{
     padding: 20px;
     justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #F8FAFC;
+    background-color: #BCCCDC;
 
 p{
     text-align: justify;
@@ -95,19 +104,17 @@ p{
     align-items: center;
     flex-direction: column;
     background-color: #BCCCDC;
-}
 
-.ajuda button{
-
-    padding: 15px;
+button{
+    padding: 10px;
     justify-content: flex-start;
     background-color: #F8FAFC;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 5px;
-}
+    margin-top: 5px;}
 
+}
 
 footer{
     background-color: #9AA6B2;
