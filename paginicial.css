@@ -68,7 +68,39 @@ section{
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 100px;
 
+}
+
+.profissionais, .promoção {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: auto;
+
+}
+
+.profissionais div, .promoção div {
+    text-align: center; 
+    width: 150px;
+    
+}
+
+
+.profissionais img, .promoção img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+   
+}
+
+.profissionais b, .promoção b {
+    text-align: center; 
+    display: block; 
+    margin-top: 5px; 
 }
 
 .p2{
