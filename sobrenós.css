@@ -10,7 +10,8 @@ h1{
     justify-content: center;
     background-color: #BCCCDC;
     color: black;
-
+    font-size: xx-large;
+    font-family: 'Garamond';
 
 }
 
@@ -86,9 +87,9 @@ section p{
     text-indent: 1.25cm;
     line-height: 1.5;
     font-size: larger;
-    font-family: Optima;
-    padding: -25px;
-    ;
+    font-family: 'Garamond';
+    padding: -23px;
+    
 
 
 }
