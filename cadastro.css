@@ -93,5 +93,22 @@ input{
     background-color: #D9EAFD;
 }
 
+input.error {
+    position: relative;
+    color: red;
+    background-color: #ffffff;
+  
+}
+
+  input.correct {
+    background-color: #ffffff;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+  
+  .visible {
+    display: block;
+  }
+
 
 

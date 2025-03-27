@@ -25,3 +25,36 @@ inputPassword.addEventListener("blur", ()=>{
   labelPassowrd.classList.remove("required-popup");
   inputPassword.style.backgroundColor = "";
 });
+
+inputEmail.addEventListener("change", (Evento) => {
+
+  const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+  if (!regexEmail.test(Evento.target.value)) { 
+    inputEmail.classList.add("error");
+    inputEmail.classList.remove("correct");
+    alert("O email deve ser válido.");
+  
+  } else {
+    inputEmail.classList.remove("error");
+    inputEmail.classList.add("correct");
+  
+  }
+  
+});
+
+
+
+inputPassword.addEventListener("change", (Evento) => {
+
+  const regexSenha = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
+  if (!regexSenha.test(Evento.target.value)) { 
+    inputPassword.classList.add("error");
+    inputPassword.classList.remove("correct");
+    alert("A senha deve conter no mínimo 8 caracteres, uma letra maiúscula, uma letra minúscula e um número.");
+  
+  } else {
+    inputPassword.classList.remove("error");
+    inputPassword.classList.add("correct");
+  
+  } 
+  });
