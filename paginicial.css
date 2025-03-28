@@ -1,25 +1,27 @@
 * body{
-    margin: 10px;
-    padding: 20px;
+   
     display: flexbox;
     font-family: 'Times New Roman', Times, garamond;
    
     
 }
-h1{
-    padding: 30px;
-    margin: 6px;
-    margin-bottom: 0px;
-    background-color: #BCCCDC;
-
-}
 
 .menu{
     height: 100px;
+    background-color: #BCCCDC;
 }
 
+.menu h1{
+   padding-left: 19px;
+    text-align: flex;
+    padding-top: 30px;
+    margin-top: 50px;
+    font-size: xx-large;
+}
+
+
 nav{
-    margin: auto;
+    
     display: flex;
     padding: 5px 15px;
     justify-content: flex-end;
@@ -61,72 +63,6 @@ input{
     display: block;
     
 }
-section{
-    background-color: #F8FAFC;
-    padding: 27px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 100px;
-
-}
-
-.profissionais, .promoção {
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap: 20px; 
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: auto;
-
-}
-
-.profissionais div, .promoção div {
-    text-align: center; 
-    width: 150px;
-    
-}
-
-
-.profissionais img, .promoção img {
-    width: 150px; 
-    height: 150px;
-    object-fit: cover; 
-   
-}
-
-.profissionais b, .promoção b {
-    text-align: center; 
-    display: block; 
-    margin-top: 5px; 
-}
-
-.p2{
-    height: 1000px;
-    margin-bottom: 10cm;
-}
-
-section img{
-    
-    justify-content: center;
-    display: block;
-    align-items: center;
-    padding: 10px;
-}
-
-section button{
-
-    padding: 10px;
-    justify-content: flex-start;
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    cursor: pointer;
-    
-}
-
 .ajuda{
  
     padding: 20px;
@@ -180,4 +116,123 @@ footer h5{
     width: 30px;
 }
 
+.profissionais{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #BCCCDC;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.profissionais b{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.profissionais img {
+    width: 100%; 
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+.profissionais div{
+    border-radius: 5px; 
+    padding: 10px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FAFC;
+}
+
+.banner button{
+
+    padding: 10px 20px;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.promoção{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #F8FAFC;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.promoção b{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.promoção img {
+    width: 100%; 
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+.promoção div{
+    border-radius: 5px; 
+    padding: 10px;
+}
+
+.maisvendidos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #BCCCDC;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.maisvendidos b{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.maisvendidos img {
+    width: 100%; 
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+.maisvendidos div{
+    border-radius: 5px; 
+    padding: 10px;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 58, 89);
+    object-fit: cover;
+}

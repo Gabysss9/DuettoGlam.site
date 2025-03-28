@@ -58,3 +58,15 @@ inputPassword.addEventListener("change", (Evento) => {
   
   } 
   });
+
+
+  formulário.addEventListener("submit", (evento) => {
+    evento.preventDefault(); 
+  
+    if (inputEmail.classList.contains("correct") && inputPassword.classList.contains("correct")) {
+      alert("Login feito com sucesso!");
+      window.location.href = "páginainicial.html";
+    } else {
+      alert("Por favor, preencha os campos corretamente antes de continuar.");
+    }
+  });
