@@ -1,5 +1,4 @@
 * body{
-   
     display: flexbox;
     font-family: 'Times New Roman', Times, garamond;
    
@@ -124,12 +123,14 @@ footer h5{
     background-color: #BCCCDC;
     justify-content: space-around;
     align-items: center;
+ 
 }
 
-.profissionais b{
+.profissionais span{
     text-align: center;
     display: block;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .profissionais img {
@@ -172,7 +173,7 @@ footer h5{
     padding: 10px;
 }
 
-.promoção{
+.promocao{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -180,22 +181,24 @@ footer h5{
     background-color: #F8FAFC;
     justify-content: space-around;
     align-items: center;
+   
 }
 
-.promoção b{
+.promocao span{
     text-align: center;
     display: block;
     margin-top: 10px;
+    font-weight: bold;
 }
 
-.promoção img {
+.promocao img {
     width: 100%; 
     height: 150px;
     object-fit: cover; 
     border-radius: 5px; 
 }
 
-.promoção div{
+.promocao div{
     border-radius: 5px; 
     padding: 10px;
 }
@@ -208,12 +211,14 @@ footer h5{
     background-color: #BCCCDC;
     justify-content: space-around;
     align-items: center;
+ 
 }
 
-.maisvendidos b{
+.maisvendidos span{
     text-align: center;
     display: block;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .maisvendidos img {
@@ -236,3 +241,47 @@ footer h5{
     background-color: rgb(5, 58, 89);
     object-fit: cover;
 }
+
+
+.carrossel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+    margin: 20px auto;
+}
+
+
+.carrossel button{
+    background-color: #BCCCDC;
+    border: none;
+    color: #333;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+button.seta-esquerda {
+    left: 10px;
+ 
+}
+
+button.seta-direita {
+    right: 10px;
+}
+
+.profissionais01, .promocao01, .maisvendidos01 {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; 
+    scroll-behavior: smooth; 
+    padding: 10px;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
