@@ -21,3 +21,14 @@ if (setaEsquerda && setaDireita && produtos.length > 0) {
         });
     });
 }
+
+function carrosel(){
+    idx++;
+    if(idx > 4){
+        idx = 0;
+    }
+    for(let i = 0; i < img.length; i++){
+        img[i].style.display = "none";
+    }
+
+}

@@ -1,128 +1,85 @@
 * body{
-    margin: 10px;
-    padding: 20px;
     display: flexbox;
-    
-}
-h1{
-    padding: 30px;
-    margin: 6px;
-    margin-bottom: 0px;
-    background-color: #F8FAFC;
-
+    font-family: 'Times New Roman', Times, garamond;
+   
 }
 
 .menu{
-    height: 96px;
+    height: 100px;
+    background-color: #BCCCDC;
 }
 
-nav{
-    display: flex;
-    padding: 5px 10px;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    top: -100px;
-    margin-bottom: -0px;
-    height: 78px;
-    margin-bottom: -90px;
+.menu h1{
+    justify-content: center;
+    padding-top: 30px;
+    font-size: xx-large;
+    align-self: flex-start;
+}
 
+
+nav{
+    
+    display: flex;
+    padding: -90px;
+    padding-left: 90px;
+    justify-content: flex-end;
+    position: relative;
+    align-items: center;
+    top: -70px;
+   
 }
 
 nav a{
-    margin: 10px;
+  
     padding: 10px;
     justify-content: flex-end;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 0;
 }
 
 input{
     padding: 6px;
     display: block;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     margin: 30px;
     width: 15cm;  
+    margin-left: 30px;
+    border-color: #ffffff;
 
 }
  nav button{
-    margin: -2px;
-    margin-right: 5PX;
-    padding: 10px;
-    height: -100cm;
-    width: 1.5cm;
-    justify-content: flex-start;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
+    margin: 5px;
+    padding: -15px;
+    height: 35px;
+    width: 50px;
+    margin-right: 40px;
+    margin-left: -20px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     cursor: pointer;
+    display: block;
+    
 }
-
-main{
-    padding: 20px;
-    justify-content: center;
-    display: flex;
-    align-items:last baseline;
-    flex-direction: column;
-    background-color: #D9EAFD;
-
-    button{
-        padding: 10px;
-        justify-content: flex-start;
-        background-color: #FFFFFF;
-        border: 0;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-top: 5px;}
-}
-
-div{
-    padding: 20px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #BCCCDC;
-
-p{
-    text-align: justify;
-    line-height: 1.5;
-}
-}
-
-section{
-    padding: 20px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #F8FAFC;
-
-
-p{
-    text-align: justify;
-    line-height: 1.5;}
-}
-
-
 .ajuda{
+ 
     padding: 20px;
     justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #BCCCDC;
-
-button{
-    padding: 10px;
-    justify-content: flex-start;
-    background-color: #F8FAFC;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 5px;
 }
 
+.ajuda button{
+
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 9px;
+    margin-bottom: -8px;
 }
 
 footer{
@@ -146,3 +103,87 @@ footer h5{
     margin-bottom: 10px;
     justify-items: flex-end;
 }
+
+
+#img-busca{
+    width: 20px;
+}
+
+#imagem-nav{
+    width: 30px;
+}
+
+main{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9EAFD;
+    height: 70%;
+    height: auto;
+
+    p{
+        text-align: justify;
+        line-height: 1.5;
+        margin-top: 45px;
+        align-self: center;
+         height: auto;
+    }
+
+    button{
+        padding: 10px;
+        justify-content: flex-start;
+        background-color: #FFFFFF;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: -70px;
+    }
+
+}
+
+main img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    display: flex;
+    align-self: flex-start;
+}
+
+
+
+div{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #BCCCDC;
+
+
+p{
+    text-align: justify;
+    line-height: 1.5;
+}
+}
+
+
+section{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8FAFC;
+
+
+
+
+p{
+    text-align: justify;
+    line-height: 1.5;}
+}
+
+
