@@ -14,7 +14,6 @@
    padding-left: 19px;
     text-align: flex;
     padding-top: 30px;
-    margin-top: 50px;
     font-size: xx-large;
 }
 
@@ -253,27 +252,6 @@ footer h5{
 }
 
 
-.carrossel button{
-    background-color: #BCCCDC;
-    border: none;
-    color: #333;
-    font-size: 24px;
-    cursor: pointer;
-    padding: 10px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-}
-
-button.seta-esquerda {
-    left: 10px;
- 
-}
-
-button.seta-direita {
-    right: 10px;
-}
 
 .profissionais01, .promocao01, .maisvendidos01 {
     display: flex;

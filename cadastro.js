@@ -127,31 +127,40 @@ if (!regexSenha.test(Evento.target.value)) {
 } 
 });
 
-inputSenhaConf.addEventListener("change", (Evento) => {  
-if (Evento.target.value !== inputSenha.value) { 
-  inputSenhaConf.classList.add("error");
-  inputSenhaConf.classList.remove("correct");
-  alert("As senhas não conferem.");
-
-} else {
-  inputSenha.classList.remove("error");
-  inputSenha.classList.add("correct");
-
-} 
+inputEmailConf.addEventListener("change", (Evento) => { 
+  if (Evento.target.value !== inputEmail.value) { 
+    inputEmailConf.classList.add("error");
+    inputEmailConf.classList.remove("correct");
+    alert("Os emails não conferem.");
+  } else {
+    inputEmailConf.classList.remove("error");
+    inputEmailConf.classList.add("correct");
+  } 
 });
+
+inputSenhaConf.addEventListener("change", (Evento) => {  
+  if (Evento.target.value !== inputSenha.value) { 
+    inputSenhaConf.classList.add("error");
+    inputSenhaConf.classList.remove("correct");
+    alert("As senhas não conferem.");
+  } else {
+    inputSenhaConf.classList.remove("error");
+    inputSenhaConf.classList.add("correct"); 
+  } 
+});
+
 
 const fomulario = document.getElementById("form-cadastro");
 
-formulario.addEventListener("submit", (evento) => {
+fomulario.addEventListener("submit", (evento) => {
   evento.preventDefault(); 
 
-  if (
+  if(
     inputNome.classList.contains("correct") &&
     inputEmail.classList.contains("correct") &&
     inputEmailConf.classList.contains("correct") &&
     inputSenha.classList.contains("correct") &&
-    inputSenhaConf.classList.contains("correct")
-){
+    inputSenhaConf.classList.contains("correct")) {
     alert("Cadastro feito com sucesso!");
     window.location.href = "páginainicial.html";
   } else {

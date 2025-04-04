@@ -5,47 +5,51 @@
 }
 
 .menu{
-    height: 100px;
+    height: 90px;
     background-color: #BCCCDC;
 }
 
 .menu h1{
-    justify-content: center;
-    padding-top: 30px;
+    color: #000000;
+    padding-top: 80px;
     font-size: xx-large;
-    align-self: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-left: -550px;
+    margin-top: -9px;
 }
 
 
 nav{
     
     display: flex;
-    padding: -90px;
-    padding-left: 90px;
-    justify-content: flex-end;
+    padding-left: 350px;
+    justify-content: space-between;
     position: relative;
-    align-items: center;
     top: -70px;
-   
+    margin-bottom: 0px;
 }
 
 nav a{
   
     padding: 10px;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding-bottom: 0;
 }
 
-input{
+nav input{
     padding: 6px;
     display: block;
     background-color: #ffffff;
-    margin: 30px;
-    width: 15cm;  
-    margin-left: 30px;
+    width: 15cm;
+    height: 15px;
+    margin: 0 23px;
     border-color: #ffffff;
-
+    margin-top: 5.9px;
 }
+
  nav button{
     margin: 5px;
     padding: -15px;
@@ -70,7 +74,7 @@ input{
     background-color: #BCCCDC;
 }
 
-.ajuda button{
+ button{
 
     padding: 10px;
     justify-content: flex-start;
@@ -80,7 +84,7 @@ input{
     cursor: pointer;
     margin-top: 9px;
     margin-bottom: -8px;
-}
+ }
 
 footer{
     background-color: #9AA6B2;
@@ -126,8 +130,9 @@ main{
         text-align: justify;
         line-height: 1.5;
         margin-top: 45px;
+        font-size: 20px;
         align-self: center;
-         height: auto;
+        height: auto;
     }
 
     button{
@@ -137,7 +142,29 @@ main{
         border: 0;
         border-radius: 5px;
         cursor: pointer;
-        margin-top: -70px;
+        margin-top: 9px;
+        align-self: start;
+    }
+
+    li{
+        list-style: none;
+        padding: 5px;
+        background-color: #BCCCDC;
+        border-radius: 5px;
+        height: auto;
+
+    }
+
+    span{
+        font-weight: bold;
+        color: red;
+
+    }
+
+    .preço{
+        font-weight: bold;
+        color: #000000;
+        text-decoration: line-through;    
     }
 
 }
@@ -145,11 +172,10 @@ main{
 main img{
     width: 200px;
     height: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    flex-direction: row;
     display: flex;
     align-self: flex-start;
+    margin-top: -190px;
+    margin-left: 40px;
 }
 
 
