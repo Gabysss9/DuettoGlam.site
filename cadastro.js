@@ -140,9 +140,9 @@ if (Evento.target.value !== inputSenha.value) {
 } 
 });
 
-const fomulário = document.getElementById("form-cadastro");
+const fomulario = document.getElementById("form-cadastro");
 
-formulário.addEventListener("submit", (evento) => {
+formulario.addEventListener("submit", (evento) => {
   evento.preventDefault(); 
 
   if (
@@ -152,7 +152,7 @@ formulário.addEventListener("submit", (evento) => {
     inputSenha.classList.contains("correct") &&
     inputSenhaConf.classList.contains("correct")
 ){
-    alert("Login feito com sucesso!");
+    alert("Cadastro feito com sucesso!");
     window.location.href = "páginainicial.html";
   } else {
     alert("Por favor, preencha os campos corretamente antes de continuar.");
