@@ -11,7 +11,10 @@
     <section class="menu">
         <h1>DuettoGlam.</h1>
         <nav>
-          <input type="text" placeholder="O que você procura hoje?" id="text" name="text">
+        <form for="barra-pesquisa">
+          <input type="text" placeholder="O que você procura hoje?" id="text" name="text" required>
+          <div id="resultados-pesquisa" class="resultados"></div>
+        </form>
           <button><img src="imagens/procurar.png" width="10" alt="busca"></button>
           <a href="carrinho.html"><img id="imagem-nav" src="imagens/carrinho-de-compras.png" width="50" alt="CARRINHO"></a>
           <a href="login.html"><img id="imagem-nav" src="imagens/do-utilizador.png" width="45" alt="Login"></a>

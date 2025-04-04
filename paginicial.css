@@ -263,3 +263,22 @@ footer h5{
     white-space: nowrap;
 }
 
+  .resultados {
+    display: none; /* Inicialmente escondido */
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .resultados div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .resultados div:hover {
+    background-color: #f0f0f0;
+  }
