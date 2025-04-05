@@ -65,7 +65,7 @@ inputPassword.addEventListener("change", (Evento) => {
   
     if (inputEmail.classList.contains("correct") && inputPassword.classList.contains("correct")) {
       alert("Login feito com sucesso!");
-      window.location.href = "páginainicial.html";
+      window.location.href = "index.html";
     } else {
       alert("Por favor, preencha os campos corretamente antes de continuar.");
     }

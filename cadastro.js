@@ -162,7 +162,7 @@ fomulario.addEventListener("submit", (evento) => {
     inputSenha.classList.contains("correct") &&
     inputSenhaConf.classList.contains("correct")) {
     alert("Cadastro feito com sucesso!");
-    window.location.href = "páginainicial.html";
+    window.location.href = "index.html";
   } else {
     alert("Por favor, preencha os campos corretamente antes de continuar.");
   }
